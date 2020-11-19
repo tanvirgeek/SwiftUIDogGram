@@ -10,11 +10,13 @@ import SwiftUI
 struct Home: View {
     var body: some View {
         TabView(){
-            Text("Screen1")
-                .tabItem {
-                    Image(systemName: "book.fill")
-                    Text("Feed")
-                }
+            NavigationView{
+                FeedView()
+            }
+            .tabItem {
+                Image(systemName: "book.fill")
+                Text("Feed")
+            }
             Text("Screen2")
                 .tabItem {
                     Image(systemName: "magnifyingglass")

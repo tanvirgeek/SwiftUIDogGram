@@ -14,6 +14,8 @@
 		EB73470925660866007FDCC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB73470825660866007FDCC2 /* LaunchScreen.storyboard */; };
 		EB73471125660AFE007FDCC2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB73471025660AFE007FDCC2 /* Home.swift */; };
 		EB73471725660F38007FDCC2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB73471625660F38007FDCC2 /* Extensions.swift */; };
+		EBBB0C6F2567315C006D4B6F /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBB0C6E2567315C006D4B6F /* FeedView.swift */; };
+		EBBB0C7225673332006D4B6F /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBB0C7125673332006D4B6F /* PostView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		EB73470825660866007FDCC2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB73471025660AFE007FDCC2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		EB73471625660F38007FDCC2 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EBBB0C6E2567315C006D4B6F /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		EBBB0C7125673332006D4B6F /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 		EB73470E25660A7D007FDCC2 /* SubViews */ = {
 			isa = PBXGroup;
 			children = (
+				EBBB0C7125673332006D4B6F /* PostView.swift */,
 			);
 			path = SubViews;
 			sourceTree = "<group>";
@@ -98,6 +103,7 @@
 				EB73471025660AFE007FDCC2 /* Home.swift */,
 				EB7346F62565FAAA007FDCC2 /* DogGramApp.swift */,
 				EB7346F82565FAAA007FDCC2 /* ContentView.swift */,
+				EBBB0C6E2567315C006D4B6F /* FeedView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -180,9 +186,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBBB0C6F2567315C006D4B6F /* FeedView.swift in Sources */,
 				EB7346F92565FAAA007FDCC2 /* ContentView.swift in Sources */,
 				EB73471125660AFE007FDCC2 /* Home.swift in Sources */,
 				EB7346F72565FAAA007FDCC2 /* DogGramApp.swift in Sources */,
+				EBBB0C7225673332006D4B6F /* PostView.swift in Sources */,
 				EB73471725660F38007FDCC2 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
